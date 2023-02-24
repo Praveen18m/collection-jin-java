@@ -1,0 +1,17 @@
+		int n=5;
+		ArrayList<Integer>num=new ArrayList<Integer>(n);//declare the list
+		for(int i=0;i<5;i++) {
+			num.add(i);
+		
+		}
+		System.out.println(num);//printing the element
+		
+		num.remove(3);//remove the 3rd index value;
+	
+		System.out.println(num);
+	
+	for(int i=0;i<num.size();i++) {   //print the element one by one
+		
+		System.out.print(num.get(i));
+		
+	}
