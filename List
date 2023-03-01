@@ -1,0 +1,11 @@
+List<String> a=new ArrayList<String>();
+a.add("Mango");
+a.add("Banana");
+a.add("Grabes");
+a.add("Apple");
+a.add("Orange");
+System.out.println(a);
+for(String b:a) {
+	
+	System.out.println(b);
+}	
