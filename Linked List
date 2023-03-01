@@ -1,0 +1,14 @@
+LinkedList<String>a=new LinkedList();
+	a.add("java");
+	a.add("paython");
+	a.add("c++");
+	a.add("mysql");
+	System.out.println(a);
+     a.pollLast();
+	for(String b:a) {
+		System.out.println(b);
+	}
+	
+	
+	}
+	
